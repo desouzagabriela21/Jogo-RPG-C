@@ -38,23 +38,17 @@ public class JogoRPG {
                             }
                             break;
                         
-                        case 2:
-                            if (jogador == 1) {
-                                personagem1.usarHabilidadeEspecial();
-                                if (personagem1.classe.equals("Mago") && personagem1.mana >= 85 && personagem1.vida >= 85) {
-                                    personagem2.receberDanoAtaqueEspecial();
-                                } else if ((personagem1.classe.equals("Guerreiro") || personagem1.classe.equals("Arqueiro")) && personagem1.vida >= 85) {
-                                    personagem2.receberDanoAtaqueEspecial();
-                                }
+                        case 2: if (jogador == 1){
+                            personagem1.usarHabilidadeEspecial();
+                            if (personagem1.vida >= 85){
+                                personagem2.receberDanoAtaqueEspecial();
+                            }
                             } else {
                                 personagem2.usarHabilidadeEspecial();
-                                if (personagem2.classe.equals("Mago") && personagem2.mana >= 85 && personagem2.vida >= 85) {
+                                if (personagem2.vida >= 85){
                                     personagem1.receberDanoAtaqueEspecial();
-                                } else if ((personagem2.classe.equals("Guerreiro") || personagem2.classe.equals("Arqueiro")) && personagem2.vida >= 85) {
-                                    personagem1.receberDanoAtaqueEspecial();
-                                }
-                            }
-                            break;
+                                    }
+                            } break;
 
                         case 3:
                             if (jogador == 1) {
