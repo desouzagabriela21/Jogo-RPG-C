@@ -20,6 +20,7 @@ int mana: Apenas para Magos, valor máximo de 100
 
 int forca: Determinada pela classe
 
+
 Métodos Implementados:
 
 void atacar(): Exibe uma mensagem personalizada de ataque conforme a classe
@@ -33,6 +34,7 @@ void mostrarStatus(): Mostra os atributos atuais do personagem
 void subirNivel(): Aumenta o nível e melhora os atributos (vida, força e mana se aplicável)
 
 void desenharPersonagem(int personagem): Exibe uma arte ASCII do personagem, com base no número passado como parâmetro
+
 
 Regras: 
 
