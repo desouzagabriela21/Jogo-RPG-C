@@ -1,14 +1,8 @@
 # Jogo de RPG em java elaborado nas aulas de programação do DTA Bosch
 
-Criando um Personagem de RPG com Java
+Criando um Personagem de RPG com Java: Este projeto simula personagens de um jogo de RPG (Role Playing Game) utilizando os princípios da Programação Orientada a Objetos. A aplicação é desenvolvida em Java e executada no terminal, permitindo a criação, personalização e simulação de ações de diferentes classes de personagens.
 
-Este projeto simula personagens de um jogo de RPG (Role Playing Game) utilizando os princípios da Programação Orientada a Objetos. A aplicação é desenvolvida em Java e executada no terminal, permitindo a criação, personalização e simulação de ações de diferentes classes de personagens.
-
-Objetivo do Projeto
-
-Praticar os pilares da Programação Orientada a Objetos (POO), como encapsulamento, abstração e polimorfismo, através da criação de uma classe Personagem com atributos e comportamentos típicos de jogos de RPG.
-
-Funcionalidades
+Objetivo do Projeto: Praticar os pilares da Programação Orientada a Objetos (POO), como encapsulamento, abstração e polimorfismo, através da criação de uma classe Personagem com atributos e comportamentos típicos de jogos de RPG.
 
 A classe Personagem possui os seguintes recursos:
 
@@ -26,7 +20,7 @@ int mana: Apenas para Magos, valor máximo de 100
 
 int forca: Determinada pela classe
 
-Métodos Implementados
+Métodos Implementados:
 
 void atacar(): Exibe uma mensagem personalizada de ataque conforme a classe
 
@@ -40,7 +34,7 @@ void subirNivel(): Aumenta o nível e melhora os atributos (vida, força e mana 
 
 void desenharPersonagem(int personagem): Exibe uma arte ASCII do personagem, com base no número passado como parâmetro
 
-Regras
+Regras: 
 
 A vida do personagem não pode ultrapassar 100
 
